@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/bingwe/wx-style.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["mini-program", "style", "less", "wxss"],
+  "author": "bingwe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bingwe/wx-style/issues"
