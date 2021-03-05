@@ -1,6 +1,6 @@
 {
   "name": "wx-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "监听微信小城序中的less、sass、stylus等预处理语言并转换成wxss",
   "bin": {
     "wx-style": "./bin/index.js"
@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/bingwe/wx-style.git"
   },
-  "keywords": ["mini-program", "style", "less", "wxss"],
+  "keywords": [
+    "mini-program",
+    "style",
+    "less",
+    "wxss"
+  ],
   "author": "bingwe",
   "license": "ISC",
   "bugs": {
@@ -20,9 +25,10 @@
   },
   "homepage": "https://github.com/bingwe/wx-style#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "chokidar": "^3.5.1",
+    "commander": "^7.1.0",
     "less": "^4.1.1",
-    "shelljs": "^0.8.4",
-    "yargs": "^16.2.0"
+    "shelljs": "^0.8.4"
   }
 }
